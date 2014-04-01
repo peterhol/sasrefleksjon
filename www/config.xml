@@ -4,7 +4,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "no.dinamo.sasrefleksjon"
-        version   = "0.0.11">
+        version   = "0.0.12">
 
     <name>SAS Refleksjon</name>
 
@@ -66,6 +66,8 @@
     <!-- 
         <gap:plugin name="com.phonegap.plugins.barcodescanner" />
     -->
+    <gap:plugin name="com.phonegap.plugins.pushplugin" />
+    <gap:plugin name="org.apache.cordova.device" />
 
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />

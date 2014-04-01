@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # PhoneGap Build Starter Application
 
 > A Hello World application to get started with PhoneGap Build.
@@ -48,10 +47,3 @@ Replace `<h1>Apache Cordova</h1>` with `<h1>PhoneGap</h1>`.
     $ git tag x.x.x
 
 [cordova-app]: http://github.com/apache/cordova-app-hello-world
-
-=======
-sasrefleksjon
-=============
-
-Source for SAS Refleksjon App
->>>>>>> a51c2902f32cd45f647f4731de2b62b038214c22

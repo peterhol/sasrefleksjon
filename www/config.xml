@@ -4,9 +4,9 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "no.dinamo.sasrefleksjon"
-        version   = "0.0.15">
+        version   = "0.0.16">
 
-    <name>SAS Refleksjon</name>
+    <name>Refleksjon</name>
 
     <description>
         Denne appen gjør SAS Refleksjon tilgjengelig i app-butikker.

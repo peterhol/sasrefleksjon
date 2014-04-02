@@ -4,7 +4,8 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "no.dinamo.sasrefleksjon"
-        version   = "0.0.17">
+        versionCode = "10"
+        version   = "1.0.0">
 
     <name>Refleksjon</name>
 
@@ -17,6 +18,9 @@
     </author>
 
     <content src="http://sas-refleksjon.no/?appp=1" />
+    
+    <gap:platform name="ios" />
+    <gap:platform name="android" />
 
     <!--
         If you do not want any permissions to be added to your app, add the
@@ -67,7 +71,6 @@
         <gap:plugin name="com.phonegap.plugins.barcodescanner" />
     -->
     <gap:plugin name="com.phonegap.plugins.pushplugin" />
-    <gap:plugin name="com.adobe.plugins.hydration" />
 
     <!-- Define app icon for each platform. -->
     <icon src="res/asset-generator/extra/icon.png" />

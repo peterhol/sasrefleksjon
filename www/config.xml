@@ -4,7 +4,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "no.dinamo.sasrefleksjon"
-        version   = "1.0.0">
+        version   = "1.0.1">
 
     <name>Refleksjon</name>
 
@@ -18,8 +18,9 @@
 
     <content src="http://sas-refleksjon.no/?appp=1" />
     
+    <!--
     <gap:platform name="ios" />
-    <gap:platform name="android" />
+    <gap:platform name="android" /> -->
     <!-- <gap:platform name="winphone" /> -->
 
     <!--

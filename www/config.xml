@@ -18,9 +18,8 @@
 
     <content src="http://sas-refleksjon.no/?appp=1" />
     
-    <!--
     <gap:platform name="ios" />
-    <gap:platform name="android" /> -->
+    <gap:platform name="android" />
     <!-- <gap:platform name="winphone" /> -->
 
     <!--

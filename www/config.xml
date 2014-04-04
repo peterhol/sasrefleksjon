@@ -71,6 +71,8 @@
      <gap:plugin name="com.pushwoosh.plugins.pushwoosh" />
     -->
     <gap:plugin name="com.phonegap.plugins.pushplugin" />
+    <gap:plugin name="com.phonegap.plugin.statusbar" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
 
     <!-- Define app icon for each platform. -->
     <icon src="res/asset-generator/extra/icon.png" />

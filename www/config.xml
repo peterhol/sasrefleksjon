@@ -90,10 +90,10 @@
     <icon src="res/icon/windows-phone/icon-173.png" gap:platform="winphone"   gap:role="background" />
 
     <!-- Define app splash screen for each platform. -->
-    <gap:splash src="res/asset-generator/extra/screen-ldpi-portrait.png"  gap:platform="android" gap:density="ldpi" />
-    <gap:splash src="res/asset-generator/extra/screen-mdpi-portrait.png"  gap:platform="android" gap:density="mdpi" />
-    <gap:splash src="res/asset-generator/extra/screen-hdpi-portrait.png"  gap:platform="android" gap:density="hdpi" />
-    <gap:splash src="res/asset-generator/extra/screen-xhdpi-portrait.png" gap:platform="android" gap:density="xhdpi" />
+    <gap:splash src="res/asset-generator/extra/screen-ldpi-portrait.9.png"  gap:platform="android" gap:density="ldpi" />
+    <gap:splash src="res/asset-generator/extra/screen-mdpi-portrait.9.png"  gap:platform="android" gap:density="mdpi" />
+    <gap:splash src="res/asset-generator/extra/screen-hdpi-portrait.9.png"  gap:platform="android" gap:density="hdpi" />
+    <gap:splash src="res/asset-generator/extra/screen-xhdpi-portrait.9.png" gap:platform="android" gap:density="xhdpi" />
     <gap:splash src="res/asset-generator/ios/launch_iphone.png"    gap:platform="ios"     width="320" height="480" />
     <gap:splash src="res/asset-generator/ios/launch_iphone@2x.png" gap:platform="ios"     width="640" height="960" />
     <gap:splash src="res/asset-generator/ios/launch_iphone~568.png" gap:platform="ios"     width="640" height="1136" />

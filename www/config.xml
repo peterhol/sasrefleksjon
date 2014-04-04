@@ -4,7 +4,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "no.dinamo.sasrefleksjon"
-        version   = "0.9.92">
+        version   = "0.9.93">
 
     <name>Refleksjon</name>
 

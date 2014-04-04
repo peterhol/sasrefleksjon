@@ -73,6 +73,14 @@
     <gap:plugin name="com.phonegap.plugins.pushplugin" />
     <gap:plugin name="com.phonegap.plugin.statusbar" />
         <preference name="StatusBarOverlaysWebView" value="false" />
+        <gap:config-file platform="ios" parent="UIStatusBarHidden">
+            <true/>
+        </gap:config-file>
+        
+        <gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance">
+            <false/>
+        </gap:config-file>
+
 
     <!-- Define app icon for each platform. -->
     <icon src="res/asset-generator/extra/icon.png" />

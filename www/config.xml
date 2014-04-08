@@ -128,5 +128,6 @@
         <access origin="http://phonegap.com" subdomains="true" />  - same as above, but including subdomains, such as http://build.phonegap.com/
     -->
     <access origin="*" />
+    <access origin="https://cp.pushwoosh.com"/>
 
 </widget>

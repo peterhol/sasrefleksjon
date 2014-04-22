@@ -77,9 +77,9 @@
         </gap:config-file>
     <!--
      <gap:plugin name="com.phonegap.plugins.barcodescanner" />
-     <gap:plugin name="com.simplec.plugins.localnotification" />
-     <gap:plugin name="com.pushwoosh.plugins.pushwoosh" />
     -->
+    <gap:plugin name="com.simplec.plugins.localnotification" />
+    <gap:plugin name="com.pushwoosh.plugins.pushwoosh" />
 
     <!-- Define app icon for each platform. -->
     <icon src="res/asset-generator/extra/icon.png" />
@@ -129,8 +129,8 @@
     <!--
         <access origin="http://phonegap.com" />                    - allow any secure requests to http://phonegap.com/
         <access origin="http://phonegap.com" subdomains="true" />  - same as above, but including subdomains, such as http://build.phonegap.com/
+        <access origin="https://cp.pushwoosh.com"/>
     -->
     <access origin="*" />
-    <access origin="https://cp.pushwoosh.com"/>
 
 </widget>

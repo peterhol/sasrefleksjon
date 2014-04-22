@@ -15,8 +15,6 @@
     <author href="http://www.dinamo.no" email="post@dinamo.no">
         Dinamo
     </author>
-
-    <content src="http://sas-refleksjon.no/?appp=1" />
     
     <gap:platform name="ios" />
     <gap:platform name="android" />
@@ -30,7 +28,7 @@
     <preference name="permissions"                value="none"/>
 
     <!-- Customize your app and platform with the preference element. -->
-    <preference name="phonegap-version"           value="3.1.0" />          <!-- all: current version of PhoneGap -->
+    <!-- <preference name="phonegap-version"           value="3.1.0" />          <!-- all: current version of PhoneGap -->
     <preference name="orientation"                value="default" />        <!-- all: default means both landscape and portrait are enabled -->
     <preference name="target-device"              value="universal" />      <!-- all: possible values handset, tablet, or universal -->
     <preference name="fullscreen"                 value="true" />           <!-- all: hides the status bar at the top of the screen -->
@@ -49,20 +47,20 @@
     <gap:plugin name="org.apache.cordova.media" />
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:plugin name="org.apache.cordova.console" />
+    <gap:plugin name="org.apache.cordova.battery-status" />
+    <gap:plugin name="org.apache.cordova.camera" />
+    <gap:plugin name="org.apache.cordova.contacts" />
+    <gap:plugin name="org.apache.cordova.device-motion" />
+    <gap:plugin name="org.apache.cordova.device-orientation" />
+    <gap:plugin name="org.apache.cordova.dialogs" />
+    <gap:plugin name="org.apache.cordova.file" />
+    <gap:plugin name="org.apache.cordova.file-transfer" />
+    <gap:plugin name="org.apache.cordova.geolocation" />
+    <gap:plugin name="org.apache.cordova.globalization" />
+    <gap:plugin name="org.apache.cordova.media-capture" />
+    <gap:plugin name="org.apache.cordova.network-information" />
+    <gap:plugin name="org.apache.cordova.vibration" />
     <!-- Plugins unused
-     <gap:plugin name="org.apache.cordova.battery-status" />
-     <gap:plugin name="org.apache.cordova.camera" />
-     <gap:plugin name="org.apache.cordova.contacts" />
-     <gap:plugin name="org.apache.cordova.device-motion" />
-     <gap:plugin name="org.apache.cordova.device-orientation" />
-     <gap:plugin name="org.apache.cordova.dialogs" />
-     <gap:plugin name="org.apache.cordova.file" />
-     <gap:plugin name="org.apache.cordova.file-transfer" />
-     <gap:plugin name="org.apache.cordova.geolocation" />
-     <gap:plugin name="org.apache.cordova.globalization" />
-     <gap:plugin name="org.apache.cordova.media-capture" />
-     <gap:plugin name="org.apache.cordova.network-information" />
-     <gap:plugin name="org.apache.cordova.vibration" />
      -->
     <!-- Third party plugins -->
     <!-- A list of available plugins are available at https://build.phonegap.com/plugins -->
@@ -132,5 +130,7 @@
         <access origin="https://cp.pushwoosh.com"/>
     -->
     <access origin="*" />
+    
+    <!--<content src="http://sas-refleksjon.no/?appp=1" />-->
 
 </widget>
